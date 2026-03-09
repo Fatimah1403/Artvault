@@ -18,7 +18,7 @@ export const getArtworks = (page = 1) =>
   export const getDepartments = () =>
     API.get('/departments');
   
-  export const getImageUrl = (imageId, size = 843) =>
-    imageId
-      ? `https://www.artic.edu/iiif/2/${imageId}/full/${size},/0/default.jpg`
-      : null;
+  export const getImageUrl = (imageId, size = 843) => {
+    if (!imageId || typeof imageId !== 'string' || imageId.trim() === '') return null;
+    return `https://www.artic.edu/iiif/2/${imageId}/full/${size},/0/default.jpg`;
+  };
