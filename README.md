@@ -149,7 +149,13 @@ http://localhost:5000/api/departments
 ```
 ## Video Demo
 
-[![Watch the demo](https://cdn.loom.com/sessions/thumbnails/f25212174ab04ace8720435319296cb3-with-play.gif)](https://www.loom.com/share/f25212174ab04ace8720435319296cb3)
+<div>
+    <a href="https://www.loom.com/share/f25212174ab04ace8720435319296cb3">
+    </a>
+    <a href="https://www.loom.com/share/f25212174ab04ace8720435319296cb3">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/f25212174ab04ace8720435319296cb3-a5a71b4defbd40fe-full-play.gif#t=0.1">
+    </a>
+  </div>
 
 
 ### Manual test checklist:
